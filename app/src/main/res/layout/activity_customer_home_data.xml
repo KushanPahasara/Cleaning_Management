@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/house"
+    tools:context=".CustomerHomeData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView26"
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Welcome to Cleaning Services"
+
+
+            android:textColor="#1B1818"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btnAddJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Add New Job"
+            app:backgroundTint="#FF5722" />
+
+        <Button
+            android:id="@+id/btnAReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Add Review"
+            app:backgroundTint="#FF5722" />
+
+
+        <Button
+            android:id="@+id/btnVReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="View Review"
+            app:backgroundTint="#FF5722" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

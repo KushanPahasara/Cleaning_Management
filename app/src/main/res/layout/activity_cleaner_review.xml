@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CleanerReview">
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Your Review"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"/>
+
+
+    <EditText
+        android:id="@+id/cleanerName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@+id/text"
+        android:hint="Your Name"/>
+
+    <EditText
+        android:id="@+id/customerName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cleanerName1"
+        android:hint="Customer Name"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/reviewbyCleaner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@+id/customerName1"
+        android:hint="Your Review"/>
+
+    <Button
+        android:id="@+id/btnAddR1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Add Review"
+        android:layout_below="@+id/reviewbyCleaner"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btnViewR1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Review"
+        android:textSize="24dp"
+        android:layout_below="@+id/btnAddR1"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+</RelativeLayout>

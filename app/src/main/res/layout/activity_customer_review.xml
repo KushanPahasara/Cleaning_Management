@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerReview"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Your Review"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"/>
+
+
+    <EditText
+        android:id="@+id/customerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@+id/text"
+        android:hint="Your Name"/>
+
+    <EditText
+        android:id="@+id/cleanerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@+id/customerName"
+        android:hint="Cleaner Name"/>
+
+    <EditText
+        android:id="@+id/reviewbyCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@+id/cleanerName"
+        android:hint="Your Review"/>
+
+    <Button
+        android:id="@+id/btnAddR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Add Review"
+        android:layout_below="@+id/reviewbyCustomer"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btnViewR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Review"
+        android:textSize="24dp"
+        android:layout_below="@+id/btnAddR"
+        android:layout_marginTop="20dp"/>
+
+
+    
+
+</RelativeLayout>

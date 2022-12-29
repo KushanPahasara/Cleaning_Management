@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.CleaningService">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Medicine">
+        <activity
+            android:name=".CleanerHomeData"
+            android:exported="false" />
+        <activity
+            android:name=".CLeRevList"
+            android:exported="false" />
+        <activity
+            android:name=".CleanerReview"
+            android:exported="false" />
+        <activity
+            android:name=".CusRevList"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerReview"
+            android:exported="false" />
+        <activity
+            android:name=".ViewJob"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerHomeData"
+            android:exported="false" />
+        <activity android:name=".Bill" />
+        <activity android:name=".Appointment" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

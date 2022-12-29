@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cleaning Service</string>
+    <string-array name="names">
+        <item>Customer</item>
+        <item>Cleaner</item>
+    </string-array>
+    <string-array name="floorType">
+        <item>Tile</item>
+        <item>Cement</item>
+        <item>Wood</item>
+    </string-array>
+</resources>
